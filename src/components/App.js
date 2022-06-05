@@ -19,6 +19,34 @@ function App() {
 
     </div>
   );
-}
+  function Header() {
+    return (
+      <div>
+        <header>
+          <h1>Putting It All Together</h1>
+        </header>
+      </div>
+    );
+  }
+  function ArticleList() {
+    return (
+      <div>
+        <main>
+          Article Components
+        </main>
+      </div>
+    );
+  }
+  function Article() {
+    return (
+      <div>
+        <article>
+          <h3>An Amazing Article</h3>
+          <small>August 11, 2005</small>
+          <p>Preview</p>
+        </article>
+      </div>
+    );
+  }
 
-export default App;
+  export default App;
